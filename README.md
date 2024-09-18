@@ -1,16 +1,17 @@
 # calculator
+This project is a fully functional iPhone calculator clone built using Flutter. The app replicates the interface and functionality of the iPhone's native calculator, offering a user-friendly UI and core arithmetic operations (addition, subtraction, multiplication, division), along with percentage and clear functions.
 
-A new Flutter project.
+# Features:
+iPhone-style calculator design
+Support for basic arithmetic operations
+Percentage and clear functions
+Responsive layout for different screen sizes
 
-## Getting Started
+# Logic:
+The logic behind the calculator's arithmetic operations is powered by the math_expressions package (version ^2.6.0). This package simplifies expression parsing and evaluation, allowing for efficient calculation handling in the app.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tech Stack:
+Flutter: For building the cross-platform app
+Dart: For writing the logic
+math_expressions: For parsing and evaluating mathematical expressions
+Feel free to clone, explore, and contribute!
